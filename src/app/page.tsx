@@ -21,7 +21,7 @@ export default function Home() {
               <p className="mt-8 tet-lg lg:pr-10 max-w-prose text-center lg:tet-left tet-balance md:text-wrap">
                 Capture your favorite memories wuth your own,{" "}
                 <span className="font-semibold">one-of-one</span> phone case.
-                CaseLion allows you to protect your memories, not just your
+                CaseCobra allows you to protect your memories, not just your
                 phone case.
               </p>
               <ul className="mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start">
@@ -91,7 +91,7 @@ export default function Home() {
                 src="/your-image.png"
               />
               <img src="/line.png" className="absolute w-20 -left-6 -bottom-6 select-none" />
-              <Phone />
+              <Phone className="w-64" imgSrc="/testimonials/1.jpg"/>
             </div>
           </div>
         </MaxWidthWrapper>
