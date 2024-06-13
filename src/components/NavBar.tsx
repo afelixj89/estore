@@ -2,6 +2,8 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import { ArrowRight } from "lucide-react";
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
+
 
 const Navbar = () => {
   const user = undefined;
@@ -78,3 +80,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+// starting all over
